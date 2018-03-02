@@ -21,14 +21,17 @@ namespace MeritListGenerator
         public int matricTotal { get; set; }
         public string matricRollNo { get; set; }
         public string matricBoardName { get; set; }
+        public double matricPercentage { get; set; }
         public int fscMarks { get; set; }
         public int fscTotal { get; set; }
         public string fscRollNo { get; set; }
+        public double fscPercentage { get; set; }
         public string fscBoardName { get; set; }
         public string testType { get; set; }
-        public int totalMarks { get; set; }
-        public int marksObtained { get; set; }
-        public float aggregate { get; set; }
+        public int entryTestTotalMarks { get; set; }
+        public int entryTestMarks { get; set; }
+        public double entrytestPercentage { get; set; }
+        public double aggregate { get; set; }
         public string appRefNum { get; set; }
         public List<string> preferenceList = new List<string>();
 
@@ -46,10 +49,12 @@ namespace MeritListGenerator
             fscMarks = 0;
             fscTotal = 0;
             testType = "";
-            totalMarks = 0;
-            marksObtained = 0;
-            aggregate = 0;
+            entryTestMarks = 0;
+            aggregate = 0.0;
             appRefNum = "";
+            matricPercentage = 0.0;
+            fscPercentage = 0.0;
+            entrytestPercentage = 0.0;
         }
     }
 }
