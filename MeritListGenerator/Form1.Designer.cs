@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.StudentApplication = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.FemaleRadioButton = new System.Windows.Forms.RadioButton();
@@ -35,29 +36,29 @@
             this.label18 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.PreferenceList = new System.Windows.Forms.TextBox();
             this.PreferenceListTextBox = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.ETRollNo = new System.Windows.Forms.TextBox();
             this.ETRollNoTextBox = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.EtMarks = new System.Windows.Forms.TextBox();
             this.ETMarksTextBox = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.FscBoardName = new System.Windows.Forms.TextBox();
             this.FscBoardNameTextBox = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.FscRollNo = new System.Windows.Forms.TextBox();
             this.FscRollNoTextBox = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.FscMarks = new System.Windows.Forms.TextBox();
             this.FscMarksTextBox = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.MatricBoardname = new System.Windows.Forms.TextBox();
             this.MatricBoardNameTextBox = new System.Windows.Forms.Label();
             this.MatricRollNOtextBox = new System.Windows.Forms.TextBox();
             this.MtricRollNoTextBox = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.MatricMarks = new System.Windows.Forms.TextBox();
             this.MatricMarksTextBox = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.Address = new System.Windows.Forms.TextBox();
             this.AdressTextBox = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.Country = new System.Windows.Forms.TextBox();
             this.CountryTextBox = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.ContactTextBox = new System.Windows.Forms.TextBox();
             this.ResedentialContactTextBox = new System.Windows.Forms.Label();
             this.MobileNumberTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -70,6 +71,7 @@
             this.NameTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
             this.QuotaSeatstextBox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.QuotaNameTextBox = new System.Windows.Forms.TextBox();
@@ -78,13 +80,37 @@
             this.DepartmentNameTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.AggregatesTextBox = new System.Windows.Forms.TextBox();
+            this.ApllicationsTextBox = new System.Windows.Forms.TextBox();
+            this.ApplicationNumberTextBox = new System.Windows.Forms.TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.NoOfCategoriesTextBox = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.departmentsTextBox = new System.Windows.Forms.TextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.button3 = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.label9 = new System.Windows.Forms.Label();
+            this.CategoryTextBox = new System.Windows.Forms.TextBox();
+            this.GenerateListButton = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.TotalSetasTextBox = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.NumberingTextBox = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.StudentApplication.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
             this.SuspendLayout();
             // 
             // StudentApplication
@@ -103,34 +129,36 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.CategoryTextBox);
+            this.tabPage1.Controls.Add(this.label9);
             this.tabPage1.Controls.Add(this.FemaleRadioButton);
             this.tabPage1.Controls.Add(this.MaleRadioButton);
             this.tabPage1.Controls.Add(this.label18);
             this.tabPage1.Controls.Add(this.button2);
             this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.textBox17);
+            this.tabPage1.Controls.Add(this.PreferenceList);
             this.tabPage1.Controls.Add(this.PreferenceListTextBox);
-            this.tabPage1.Controls.Add(this.textBox16);
+            this.tabPage1.Controls.Add(this.ETRollNo);
             this.tabPage1.Controls.Add(this.ETRollNoTextBox);
-            this.tabPage1.Controls.Add(this.textBox2);
+            this.tabPage1.Controls.Add(this.EtMarks);
             this.tabPage1.Controls.Add(this.ETMarksTextBox);
-            this.tabPage1.Controls.Add(this.textBox14);
+            this.tabPage1.Controls.Add(this.FscBoardName);
             this.tabPage1.Controls.Add(this.FscBoardNameTextBox);
-            this.tabPage1.Controls.Add(this.textBox13);
+            this.tabPage1.Controls.Add(this.FscRollNo);
             this.tabPage1.Controls.Add(this.FscRollNoTextBox);
-            this.tabPage1.Controls.Add(this.textBox12);
+            this.tabPage1.Controls.Add(this.FscMarks);
             this.tabPage1.Controls.Add(this.FscMarksTextBox);
-            this.tabPage1.Controls.Add(this.textBox11);
+            this.tabPage1.Controls.Add(this.MatricBoardname);
             this.tabPage1.Controls.Add(this.MatricBoardNameTextBox);
             this.tabPage1.Controls.Add(this.MatricRollNOtextBox);
             this.tabPage1.Controls.Add(this.MtricRollNoTextBox);
-            this.tabPage1.Controls.Add(this.textBox9);
+            this.tabPage1.Controls.Add(this.MatricMarks);
             this.tabPage1.Controls.Add(this.MatricMarksTextBox);
-            this.tabPage1.Controls.Add(this.textBox8);
+            this.tabPage1.Controls.Add(this.Address);
             this.tabPage1.Controls.Add(this.AdressTextBox);
-            this.tabPage1.Controls.Add(this.textBox7);
+            this.tabPage1.Controls.Add(this.Country);
             this.tabPage1.Controls.Add(this.CountryTextBox);
-            this.tabPage1.Controls.Add(this.textBox6);
+            this.tabPage1.Controls.Add(this.ContactTextBox);
             this.tabPage1.Controls.Add(this.ResedentialContactTextBox);
             this.tabPage1.Controls.Add(this.MobileNumberTextBox);
             this.tabPage1.Controls.Add(this.label5);
@@ -201,12 +229,12 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox17
+            // PreferenceList
             // 
-            this.textBox17.Location = new System.Drawing.Point(405, 227);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(100, 20);
-            this.textBox17.TabIndex = 33;
+            this.PreferenceList.Location = new System.Drawing.Point(405, 227);
+            this.PreferenceList.Name = "PreferenceList";
+            this.PreferenceList.Size = new System.Drawing.Size(100, 20);
+            this.PreferenceList.TabIndex = 33;
             // 
             // PreferenceListTextBox
             // 
@@ -217,12 +245,12 @@
             this.PreferenceListTextBox.TabIndex = 32;
             this.PreferenceListTextBox.Text = "PreferenceList";
             // 
-            // textBox16
+            // ETRollNo
             // 
-            this.textBox16.Location = new System.Drawing.Point(405, 197);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(100, 20);
-            this.textBox16.TabIndex = 31;
+            this.ETRollNo.Location = new System.Drawing.Point(405, 197);
+            this.ETRollNo.Name = "ETRollNo";
+            this.ETRollNo.Size = new System.Drawing.Size(100, 20);
+            this.ETRollNo.TabIndex = 31;
             // 
             // ETRollNoTextBox
             // 
@@ -233,12 +261,12 @@
             this.ETRollNoTextBox.TabIndex = 30;
             this.ETRollNoTextBox.Text = "ETRollNo";
             // 
-            // textBox2
+            // EtMarks
             // 
-            this.textBox2.Location = new System.Drawing.Point(405, 172);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 29;
+            this.EtMarks.Location = new System.Drawing.Point(405, 172);
+            this.EtMarks.Name = "EtMarks";
+            this.EtMarks.Size = new System.Drawing.Size(100, 20);
+            this.EtMarks.TabIndex = 29;
             // 
             // ETMarksTextBox
             // 
@@ -249,12 +277,12 @@
             this.ETMarksTextBox.TabIndex = 28;
             this.ETMarksTextBox.Text = "ETMarls";
             // 
-            // textBox14
+            // FscBoardName
             // 
-            this.textBox14.Location = new System.Drawing.Point(405, 146);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 20);
-            this.textBox14.TabIndex = 27;
+            this.FscBoardName.Location = new System.Drawing.Point(405, 146);
+            this.FscBoardName.Name = "FscBoardName";
+            this.FscBoardName.Size = new System.Drawing.Size(100, 20);
+            this.FscBoardName.TabIndex = 27;
             // 
             // FscBoardNameTextBox
             // 
@@ -265,12 +293,12 @@
             this.FscBoardNameTextBox.TabIndex = 26;
             this.FscBoardNameTextBox.Text = "FscBoardName";
             // 
-            // textBox13
+            // FscRollNo
             // 
-            this.textBox13.Location = new System.Drawing.Point(405, 119);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 20);
-            this.textBox13.TabIndex = 25;
+            this.FscRollNo.Location = new System.Drawing.Point(405, 119);
+            this.FscRollNo.Name = "FscRollNo";
+            this.FscRollNo.Size = new System.Drawing.Size(100, 20);
+            this.FscRollNo.TabIndex = 25;
             // 
             // FscRollNoTextBox
             // 
@@ -281,12 +309,12 @@
             this.FscRollNoTextBox.TabIndex = 24;
             this.FscRollNoTextBox.Text = "FscRollNo";
             // 
-            // textBox12
+            // FscMarks
             // 
-            this.textBox12.Location = new System.Drawing.Point(405, 93);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 20);
-            this.textBox12.TabIndex = 23;
+            this.FscMarks.Location = new System.Drawing.Point(405, 93);
+            this.FscMarks.Name = "FscMarks";
+            this.FscMarks.Size = new System.Drawing.Size(100, 20);
+            this.FscMarks.TabIndex = 23;
             // 
             // FscMarksTextBox
             // 
@@ -297,12 +325,12 @@
             this.FscMarksTextBox.TabIndex = 22;
             this.FscMarksTextBox.Text = "FscMarks";
             // 
-            // textBox11
+            // MatricBoardname
             // 
-            this.textBox11.Location = new System.Drawing.Point(405, 67);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 21;
+            this.MatricBoardname.Location = new System.Drawing.Point(405, 67);
+            this.MatricBoardname.Name = "MatricBoardname";
+            this.MatricBoardname.Size = new System.Drawing.Size(100, 20);
+            this.MatricBoardname.TabIndex = 21;
             // 
             // MatricBoardNameTextBox
             // 
@@ -329,12 +357,12 @@
             this.MtricRollNoTextBox.TabIndex = 18;
             this.MtricRollNoTextBox.Text = "MatricRollNo";
             // 
-            // textBox9
+            // MatricMarks
             // 
-            this.textBox9.Location = new System.Drawing.Point(405, 15);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 17;
+            this.MatricMarks.Location = new System.Drawing.Point(405, 15);
+            this.MatricMarks.Name = "MatricMarks";
+            this.MatricMarks.Size = new System.Drawing.Size(100, 20);
+            this.MatricMarks.TabIndex = 17;
             // 
             // MatricMarksTextBox
             // 
@@ -345,12 +373,12 @@
             this.MatricMarksTextBox.TabIndex = 16;
             this.MatricMarksTextBox.Text = "MatricMarks";
             // 
-            // textBox8
+            // Address
             // 
-            this.textBox8.Location = new System.Drawing.Point(122, 226);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 15;
+            this.Address.Location = new System.Drawing.Point(122, 226);
+            this.Address.Name = "Address";
+            this.Address.Size = new System.Drawing.Size(100, 20);
+            this.Address.TabIndex = 15;
             // 
             // AdressTextBox
             // 
@@ -361,12 +389,12 @@
             this.AdressTextBox.TabIndex = 14;
             this.AdressTextBox.Text = "Adress";
             // 
-            // textBox7
+            // Country
             // 
-            this.textBox7.Location = new System.Drawing.Point(122, 200);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 13;
+            this.Country.Location = new System.Drawing.Point(122, 200);
+            this.Country.Name = "Country";
+            this.Country.Size = new System.Drawing.Size(100, 20);
+            this.Country.TabIndex = 13;
             // 
             // CountryTextBox
             // 
@@ -377,12 +405,12 @@
             this.CountryTextBox.TabIndex = 12;
             this.CountryTextBox.Text = "Country";
             // 
-            // textBox6
+            // ContactTextBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(122, 174);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 11;
+            this.ContactTextBox.Location = new System.Drawing.Point(122, 174);
+            this.ContactTextBox.Name = "ContactTextBox";
+            this.ContactTextBox.Size = new System.Drawing.Size(100, 20);
+            this.ContactTextBox.TabIndex = 11;
             // 
             // ResedentialContactTextBox
             // 
@@ -491,12 +519,22 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(251, 154);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(108, 23);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Add Departement";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // QuotaSeatstextBox
             // 
             this.QuotaSeatstextBox.Location = new System.Drawing.Point(114, 84);
             this.QuotaSeatstextBox.Name = "QuotaSeatstextBox";
             this.QuotaSeatstextBox.Size = new System.Drawing.Size(100, 20);
-            this.QuotaSeatstextBox.TabIndex = 4;
+            this.QuotaSeatstextBox.TabIndex = 3;
             // 
             // label8
             // 
@@ -512,7 +550,7 @@
             this.QuotaNameTextBox.Location = new System.Drawing.Point(114, 57);
             this.QuotaNameTextBox.Name = "QuotaNameTextBox";
             this.QuotaNameTextBox.Size = new System.Drawing.Size(100, 20);
-            this.QuotaNameTextBox.TabIndex = 4;
+            this.QuotaNameTextBox.TabIndex = 2;
             // 
             // label7
             // 
@@ -528,7 +566,7 @@
             this.QuotaButton.Location = new System.Drawing.Point(251, 82);
             this.QuotaButton.Name = "QuotaButton";
             this.QuotaButton.Size = new System.Drawing.Size(75, 23);
-            this.QuotaButton.TabIndex = 2;
+            this.QuotaButton.TabIndex = 4;
             this.QuotaButton.Text = "Add Quota";
             this.QuotaButton.UseVisualStyleBackColor = true;
             this.QuotaButton.Click += new System.EventHandler(this.QuotaButton_Click);
@@ -551,6 +589,13 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button4);
+            this.tabPage3.Controls.Add(this.textBox15);
+            this.tabPage3.Controls.Add(this.textBox10);
+            this.tabPage3.Controls.Add(this.textBox5);
+            this.tabPage3.Controls.Add(this.AggregatesTextBox);
+            this.tabPage3.Controls.Add(this.ApllicationsTextBox);
+            this.tabPage3.Controls.Add(this.ApplicationNumberTextBox);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -559,8 +604,78 @@
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(267, 426);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(104, 23);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "ShowApplications";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(167, 29);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(100, 20);
+            this.textBox15.TabIndex = 3;
+            this.textBox15.Text = "Application Number";
+            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(367, 29);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(100, 20);
+            this.textBox10.TabIndex = 2;
+            this.textBox10.Text = "Aggregates";
+            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(267, 29);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 1;
+            this.textBox5.Text = "Name";
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // AggregatesTextBox
+            // 
+            this.AggregatesTextBox.Location = new System.Drawing.Point(367, 49);
+            this.AggregatesTextBox.Multiline = true;
+            this.AggregatesTextBox.Name = "AggregatesTextBox";
+            this.AggregatesTextBox.Size = new System.Drawing.Size(100, 354);
+            this.AggregatesTextBox.TabIndex = 0;
+            // 
+            // ApllicationsTextBox
+            // 
+            this.ApllicationsTextBox.Location = new System.Drawing.Point(267, 49);
+            this.ApllicationsTextBox.Multiline = true;
+            this.ApllicationsTextBox.Name = "ApllicationsTextBox";
+            this.ApllicationsTextBox.Size = new System.Drawing.Size(100, 354);
+            this.ApllicationsTextBox.TabIndex = 0;
+            // 
+            // ApplicationNumberTextBox
+            // 
+            this.ApplicationNumberTextBox.Location = new System.Drawing.Point(167, 49);
+            this.ApplicationNumberTextBox.Multiline = true;
+            this.ApplicationNumberTextBox.Name = "ApplicationNumberTextBox";
+            this.ApplicationNumberTextBox.Size = new System.Drawing.Size(100, 354);
+            this.ApplicationNumberTextBox.TabIndex = 0;
+            // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.NumberingTextBox);
+            this.tabPage4.Controls.Add(this.textBox1);
+            this.tabPage4.Controls.Add(this.button5);
+            this.tabPage4.Controls.Add(this.TotalSetasTextBox);
+            this.tabPage4.Controls.Add(this.textBox6);
+            this.tabPage4.Controls.Add(this.NoOfCategoriesTextBox);
+            this.tabPage4.Controls.Add(this.textBox3);
+            this.tabPage4.Controls.Add(this.textBox2);
+            this.tabPage4.Controls.Add(this.departmentsTextBox);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -569,8 +684,41 @@
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // NoOfCategoriesTextBox
+            // 
+            this.NoOfCategoriesTextBox.Location = new System.Drawing.Point(246, 84);
+            this.NoOfCategoriesTextBox.Multiline = true;
+            this.NoOfCategoriesTextBox.Name = "NoOfCategoriesTextBox";
+            this.NoOfCategoriesTextBox.Size = new System.Drawing.Size(100, 282);
+            this.NoOfCategoriesTextBox.TabIndex = 4;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(246, 64);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 3;
+            this.textBox3.Text = "No Of Categories";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(146, 64);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 2;
+            this.textBox2.Text = "Department Name";
+            // 
+            // departmentsTextBox
+            // 
+            this.departmentsTextBox.Location = new System.Drawing.Point(146, 84);
+            this.departmentsTextBox.Multiline = true;
+            this.departmentsTextBox.Name = "departmentsTextBox";
+            this.departmentsTextBox.Size = new System.Drawing.Size(100, 282);
+            this.departmentsTextBox.TabIndex = 1;
+            // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.GenerateListButton);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -581,6 +729,7 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.button6);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
@@ -589,15 +738,88 @@
             this.tabPage6.Text = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // contextMenuStrip1
             // 
-            this.button3.Location = new System.Drawing.Point(251, 154);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(108, 23);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Add Departement";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(348, 263);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(49, 13);
+            this.label9.TabIndex = 39;
+            this.label9.Text = "Category";
+            // 
+            // CategoryTextBox
+            // 
+            this.CategoryTextBox.Location = new System.Drawing.Point(405, 260);
+            this.CategoryTextBox.Name = "CategoryTextBox";
+            this.CategoryTextBox.Size = new System.Drawing.Size(100, 20);
+            this.CategoryTextBox.TabIndex = 40;
+            // 
+            // GenerateListButton
+            // 
+            this.GenerateListButton.Location = new System.Drawing.Point(247, 158);
+            this.GenerateListButton.Name = "GenerateListButton";
+            this.GenerateListButton.Size = new System.Drawing.Size(126, 23);
+            this.GenerateListButton.TabIndex = 0;
+            this.GenerateListButton.Text = "Generate MeritList";
+            this.GenerateListButton.UseVisualStyleBackColor = true;
+            this.GenerateListButton.Click += new System.EventHandler(this.GenerateListButton_Click);
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(346, 65);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(127, 20);
+            this.textBox6.TabIndex = 5;
+            this.textBox6.Text = "Total seats in department";
+            // 
+            // TotalSetasTextBox
+            // 
+            this.TotalSetasTextBox.Location = new System.Drawing.Point(346, 84);
+            this.TotalSetasTextBox.Multiline = true;
+            this.TotalSetasTextBox.Name = "TotalSetasTextBox";
+            this.TotalSetasTextBox.Size = new System.Drawing.Size(127, 282);
+            this.TotalSetasTextBox.TabIndex = 6;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(505, 343);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(141, 23);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Show all departments";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(120, 64);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(26, 20);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.Text = "No";
+            // 
+            // NumberingTextBox
+            // 
+            this.NumberingTextBox.Location = new System.Drawing.Point(120, 84);
+            this.NumberingTextBox.Multiline = true;
+            this.NumberingTextBox.Name = "NumberingTextBox";
+            this.NumberingTextBox.Size = new System.Drawing.Size(26, 282);
+            this.NumberingTextBox.TabIndex = 8;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(279, 147);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 0;
+            this.button6.Text = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Form1
             // 
@@ -612,6 +834,12 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -620,23 +848,23 @@
 
         private System.Windows.Forms.TabControl StudentApplication;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox FscBoardName;
         private System.Windows.Forms.Label FscBoardNameTextBox;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox FscRollNo;
         private System.Windows.Forms.Label FscRollNoTextBox;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox FscMarks;
         private System.Windows.Forms.Label FscMarksTextBox;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox MatricBoardname;
         private System.Windows.Forms.Label MatricBoardNameTextBox;
         private System.Windows.Forms.TextBox MatricRollNOtextBox;
         private System.Windows.Forms.Label MtricRollNoTextBox;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox MatricMarks;
         private System.Windows.Forms.Label MatricMarksTextBox;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox Address;
         private System.Windows.Forms.Label AdressTextBox;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox Country;
         private System.Windows.Forms.Label CountryTextBox;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox ContactTextBox;
         private System.Windows.Forms.Label ResedentialContactTextBox;
         private System.Windows.Forms.TextBox MobileNumberTextBox;
         private System.Windows.Forms.Label label5;
@@ -653,11 +881,11 @@
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox PreferenceList;
         private System.Windows.Forms.Label PreferenceListTextBox;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox ETRollNo;
         private System.Windows.Forms.Label ETRollNoTextBox;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox EtMarks;
         private System.Windows.Forms.Label ETMarksTextBox;
         private System.Windows.Forms.RadioButton FemaleRadioButton;
         private System.Windows.Forms.RadioButton MaleRadioButton;
@@ -672,6 +900,27 @@
         private System.Windows.Forms.TextBox DepartmentNameTextBox;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox AggregatesTextBox;
+        private System.Windows.Forms.TextBox ApllicationsTextBox;
+        private System.Windows.Forms.TextBox ApplicationNumberTextBox;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.TextBox NoOfCategoriesTextBox;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox departmentsTextBox;
+        private System.Windows.Forms.TextBox CategoryTextBox;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button GenerateListButton;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox TotalSetasTextBox;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox NumberingTextBox;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button6;
     }
 }
 
