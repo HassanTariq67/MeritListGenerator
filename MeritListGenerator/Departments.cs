@@ -11,5 +11,6 @@ namespace MeritListGenerator
         public string name { get; set; }
         public List<string> quota = new List<string>();
         public List<int> seats = new List<int>();
+        public List<int> candidateSelected = new List<int>();
     }
 }
