@@ -106,6 +106,7 @@ namespace MeritListGenerator
             {
                 totalpreferences += applications[i].preferenceList.Count();
             }
+            //untill all students are selected 
             while (applications.Count!=0 && totalpreferences!=0)
             {
                 //looping for all departments
@@ -117,7 +118,7 @@ namespace MeritListGenerator
                     for (int j = 0; j < department[i].quota.Count(); j++)
                     {
                         var departquotaname = depatquotalist[j];   //Each Category for that department.
-                        var seatlist = department[j].seats;
+                        var seatlist = department[i].seats;
                         var noOfSeats = seatlist[j];     //seats for that category
                                                          //checking firstPreference,category for each application
                         for (int k = 0; k < applications.Count(); k++)
@@ -125,11 +126,12 @@ namespace MeritListGenerator
                             var listofstudents = applications[k];
                             var perferencelistofstudent = listofstudents.preferenceList;
                             var firstPreference = perferencelistofstudent[0];     //first preference of student.
-                                                                                  //also checking if seats in that category are still available
+                            //checking the first preference available seats and applied category of student. 
                             if (firstPreference == depatnamename && department[i].candidateSelected[j] < noOfSeats && listofstudents.category == departquotaname)
                             {
                                 studentsSelectedList.Add(listofstudents);
-                                department[i].candidateSelected[k]++;
+                                department[i].candidateSelected[j]++;
+                                totalpreferences -= listofstudents.preferenceList.Count();
                             }
                         }
                     }
@@ -139,17 +141,14 @@ namespace MeritListGenerator
                         var removeStuents = studentsSelectedList[l];
                         applications.Remove(removeStuents);
                     }
+                }
                     //removing first preferences of those students who were not selected.
                     for (int m = 0; m < applications.Count(); m++)
                     {
-                        var unselectestudents = applications[m];
-                        if (unselectestudents.preferenceList[0] == (depatnamename))
-                        {
-                            unselectestudents.preferenceList.Remove(depatnamename);
-                            totalpreferences--;
-                        }
+                        var unselectestudents = applications[m].preferenceList[0];
+                        applications[m].preferenceList.Remove(unselectestudents);
+                        totalpreferences--;
                     }
-                }
             }
             Generate_PDFs();
         }
@@ -166,12 +165,13 @@ namespace MeritListGenerator
             xlWorkSheet.Cells[1, 3] = "Department";
             xlWorkSheet.Cells[1, 4] = "Category";
             xlWorkSheet.Cells[1, 5] = "Aggregate";
+            studentsSelectedList = studentsSelectedList.OrderByDescending(o => o.aggregate).ToList();
             for (int i = 0; i < studentsSelectedList.Count(); i++)
             {
                 //Setting width of the Excel Coloumns.
                 var studentinfo = studentsSelectedList[i];  
                 xlWorkSheet.Columns[2].ColumnWidth = 18;
-                xlWorkSheet.Columns[3].ColumnWidth = 18;
+                xlWorkSheet.Columns[3].ColumnWidth = 21;
                 xlWorkSheet.Columns[4].ColumnWidth = 18;
                 xlWorkSheet.Columns[5].ColumnWidth = 18;
                 

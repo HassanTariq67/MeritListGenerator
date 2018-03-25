@@ -120,4 +120,7 @@
   <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="textBox4.Text" xml:space="preserve">
+    <value>This System is used to generate Merit List of students based on departments and quota seats. To use the system enter all the applications along with correct data otherwise system may not work properly and would ultimately result into bad results. Also add the departments which are available along with their quota and their seats.</value>
+  </data>
 </root>
